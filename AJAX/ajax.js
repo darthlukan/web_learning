@@ -42,7 +42,7 @@ var dataArrayOrObject = array({
     });
 
 $.ajax({
-        type: 'POST',
+        type: 'POST', // POST, GET, PUT, DELETE
         url: 'example.com',
         data: dataArrayOrObject,
     });
@@ -64,7 +64,7 @@ $.post({
 
 $.get('remote_path',
       {'param': 'param_value'},
-      function ('returned_data') {
+      function (returned_data) {
         //do stuff
       }
     );
