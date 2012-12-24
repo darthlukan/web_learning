@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.cookie.js"></script>
+    <title>Cookies!</title>
+</head>
+<body>
+    <div id="output">
+        Output Area:<br/>
+        
+    </div>
+    <script type="text/javascript">
+        $('document').ready(function () {
+            
+            $('#output').append('<p>jQuery Loaded</p><br/>');
+    
+            // Uses the jQuery Cookie plugin to set the cookie.
+            $.cookie('test_cookie', 'FOO BAR BAZ', {expires: 1, secure: true});
+    
+            $('#output').append('<p>Test Cookie set!</p><br/>');
+            
+            console.log($.cookie('test_cookie'));
+            
+            $('#output').append('<p>Check console for Test Cookie contents.</p><br/>');
+            
+            //$.cookie("test_cookie", {expires: -1});
+            //$('#output').append("<p>Test Cookie deleted</p><br/>");
+        })
+    </script>
+</body>
+</html>
