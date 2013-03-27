@@ -2,29 +2,28 @@
     "web-app" : {
         "servlet" : [
             {
-               "servlet-name"  : "test", "servlet-class" : "test"
+                "servlet-name"  : "test", "servlet-class" : "test"
             },
             {
-               "servlet-name"  : "email", "servlet-class" : "test2",
-               "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
+                "servlet-name"  : "email", "servlet-class" : "test2",
+                "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
             },
             {
-               "servlet-name"  : "foo", "servlet-class" : "test3",
-               "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
+                "servlet-name"  : "foo", "servlet-class" : "test3",
+                "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
             },
             {
-               "servlet-name"  : "bar", "servlet-class" : "test4",
-               "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
+                "servlet-name"  : "bar", "servlet-class" : "test4",
+                "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
             },
             {
-               "servlet-name"  : "baz", "servlet-class" : "test5",
-               "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
+                "servlet-name"  : "baz", "servlet-class" : "test5",
+                "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
             },
             {
-               "servlet-name"  : "bazinga", "servlet-class" : "test6",
-               "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
+                "servlet-name"  : "bazinga", "servlet-class" : "test6",
+                "init-param"    : { "mailHost" : "mail1", "mailHostOverride" : "mail2" }
             }
         ]
     }
 }
-
